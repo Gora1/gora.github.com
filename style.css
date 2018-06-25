@@ -1,0 +1,33 @@
+body{
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+
+.option{
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+       background-color: #efefef;
+    border: 1px solid #bbbbbb;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px;
+    -moz-box-shadow: 2px 2px 3px #cccccc;
+    -webkit-box-shadow: 2px 2px 3px #cccccc;
+    box-shadow: 2px 2px 3px #cccccc;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-family: Calibri, Verdana, Arial, sans-serif;
+    font-size: 30px;
+    outline: none;
+    padding: 3px 10px;
+}
+ 
+.option:active {
+    -moz-box-shadow: 2px 2px 3px #cccccc inset;
+    -webkit-box-shadow: 2px 2px 3px #cccccc inset;
+    box-shadow: 2px 2px 3px #cccccc inset;
+}
